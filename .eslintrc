@@ -1,0 +1,35 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "legacyDecorators": true,
+      "jsx": true
+    }
+  },
+  "globals": {
+    "tw": true
+  },
+  "settings": {
+    "react": {
+      "version": "17"
+    }
+  },
+  "rules": {
+    "react/prop-types": "off",
+    "react/jsx-fragments": "off",
+    "camelcase": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "default-param-last": ["warn"]
+  },
+  "extends": ["plugin:prettier/recommended", "prettier"],
+  "plugins": ["@typescript-eslint", "prettier", "jsx-a11y"]
+}

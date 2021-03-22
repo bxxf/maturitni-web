@@ -1,0 +1,28 @@
+body.dark {
+  --color-navbar-button: #292929;
+  --color-navbar-border: #5b5b5b;
+  --color-text: #e1e1e1;
+  --color-text-hover: #f6f6f6;
+  --color-hero-caption: #888888;
+  --color-hero-subtitle: #e5e5e5;
+  --color-bg-main: #202020;
+  --color-bg-button: #444444;
+  background-color: #202020;
+}
+
+body {
+  --color-navbar-button: #f9f9f9;
+  --color-navbar-border: #c8c8c8;
+  --color-text: #333333;
+  --color-text-hover: #232323;
+  --color-hero-caption: #525252;
+  --color-hero-subtitle: #4f4f4f;
+  --color-bg-main: #ffffff;
+  --color-bg-button: #f2f2f2;
+  background-color: #ffffff;
+  transition: background-color 0.2s linear;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
